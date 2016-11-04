@@ -2,9 +2,10 @@ const HTTP = require('http');
 const FS = require('fs');
 const PATH = require('path');
 
-const chart = FS.readFileSync(PATH.resolve(__dirname, './files/chart.html'), 'utf-8');
+// process.start = process.hrtime();
+// const measure = require('../lib/measure');
 
-console.log(chart);
+const chart = FS.readFileSync(PATH.resolve(__dirname, './files/chart.html'), 'utf-8');
 
 const PORT = 4001;
 
@@ -13,9 +14,8 @@ const handleRequest = function(req, res) {
 
     if (req.url !== '/favicon.ico') {
         setTimeout(() => {
-            if (random <= 1) {
-                res.writeHead(200, {'Content-Type': 'application/json'});
-                res.end(JSON.stringify({
+            if (random > 0.1) {
+                const body = JSON.stringify({
                     '54c8c2fe636d7365951d0100': {
                         css: [['{cdn}/bcss/jquery.qtip.min.v1.css'], ['{cdn}/bcss/font-awesome.v440.min.css']],
                         error: null,
@@ -27,12 +27,16 @@ const handleRequest = function(req, res) {
                         render: chart,
                         type: 'c'
                     }
-                }));
+                });
+
+                res.writeHead(200, {'Content-Type': 'application/json'});
+                res.end(body);
+
             } else {
                 res.writeHead(500);
                 res.end();
             }
-        }, 500);
+        }, 10);
     } else {
         res.writeHead(200, {'Content-Type': 'image/x-icon'});
         res.end();
