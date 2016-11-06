@@ -1,0 +1,158 @@
+{
+  "calls": [
+    "ml/54bf9b5e636d735fe10e0000/draft/1/eco/64/EN/0/www.local.top10antivirussoftware.com/1/_/8/1/_/1/{callback}",
+    "pl/54c8c2fe636d736595030100/draft/1/eco/64/EN/0/www.local.top10antivirussoftware.com/1/_/8/1/_/1/{callback}",
+    "sl/54bf9b5e636d735fe1240000/draft/1/eco/64/EN/0/www.local.top10antivirussoftware.com/1/_/8/1/_/1/{callback}",
+    "ll/54bf9b5e636d735fe1270000/draft/1/eco/64/EN/0/www.local.top10antivirussoftware.com/1/_/8/1/_/1/{callback}",
+    "w/54bf9b5e636d735fe12e0000/draft/1/eco/64/EN/0/www.local.top10antivirussoftware.com/1/_/8/1/_/1/{callback}",
+    "fll/54bf9b5e636d735fe1300000/draft/1/eco/64/EN/0/www.local.top10antivirussoftware.com/1/_/8/1/_/1/{callback}",
+    "jsi/55c9e81f636d731dd02a1b00/draft/1/eco/64/EN/0/www.local.top10antivirussoftware.com/1/_/8/1/_/1/{callback}",
+    "jsi/55eff848636d734306080000/draft/1/eco/64/EN/0/www.local.top10antivirussoftware.com/1/_/8/1/_/1/{callback}",
+    "jsi/56a70f597858775d4800001b/draft/1/eco/64/EN/0/www.local.top10antivirussoftware.com/1/_/8/1/_/1/{callback}",
+    "jsi/57147a647858772adc000049/draft/1/eco/64/EN/0/www.local.top10antivirussoftware.com/1/_/8/1/_/1/{callback}",
+    "t/54c8c2fe636d736595110100/draft/1/eco/64/EN/0/www.local.top10antivirussoftware.com/1/_/8/1/_/1/{callback}",
+    "w/54c8c2fe636d736595140100/draft/1/eco/64/EN/0/www.local.top10antivirussoftware.com/1/_/8/1/_/1/{callback}",
+    "ps/5614ebd9636d735640310900/draft/1/eco/64/EN/0/www.local.top10antivirussoftware.com/1/_/8/1/_/1/{callback}",
+    "wc/54c8c2fe636d7365951f0100/draft/1/eco/64/EN/0/www.local.top10antivirussoftware.com/1/_/8/1/_/1/{callback}",
+    "wc/54c8c2fe636d736595220100/draft/1/eco/64/EN/0/www.local.top10antivirussoftware.com/1/_/8/1/_/1/{callback}",
+    "wc/54c8c2fe636d736595240100/draft/1/eco/64/EN/0/www.local.top10antivirussoftware.com/1/_/8/1/_/1/{callback}",
+    "w/54c8c2fe636d736595260100/draft/1/eco/64/EN/0/www.local.top10antivirussoftware.com/1/_/8/1/_/1/{callback}",
+    "wc/54cde4c6636d733ed6940000/draft/1/eco/64/EN/0/www.local.top10antivirussoftware.com/1/_/8/1/_/1/{callback}",
+    "c/54c8c2fe636d7365951d0100/draft/1/eco/64/EN/0/www.local.top10antivirussoftware.com/1/_/8/1/_/1/{callback}"
+  ],
+  "refs": {
+    "54bf9b5e636d735fe10e0000": {
+      "id": "54bf9b5e636d735fe10e0000",
+      "component": "MasterLayout",
+      "belongsTo": "__body",
+      "layout": null,
+      "token": null
+    },
+    "54c8c2fe636d736595030100": {
+      "id": "54c8c2fe636d736595030100",
+      "component": "PageLayout",
+      "belongsTo": "PageContainer-54bf9b5e636d735fe1390000",
+      "layout": "MasterLayout",
+      "token": "page_layout"
+    },
+    "54c8c2fe636d736595110100": {
+      "id": "54c8c2fe636d736595110100",
+      "component": "TitleComponent",
+      "belongsTo": "SingleContainer-54c8c2fe636d736595120100",
+      "layout": "PageLayout",
+      "token": "54c8c2fe636d736595120100"
+    },
+    "54c8c2fe636d736595140100": {
+      "id": "54c8c2fe636d736595140100",
+      "component": "WysiwygComponent",
+      "belongsTo": "SingleContainer-54c8c2fe636d736595150100",
+      "layout": "PageLayout",
+      "token": "54c8c2fe636d736595150100"
+    },
+    "5614ebd9636d735640310900": {
+      "id": "5614ebd9636d735640310900",
+      "component": "PageStyleComponent",
+      "belongsTo": "StyleContainer-5614ebd9636d735640300900",
+      "layout": "PageLayout",
+      "token": "5614ebd9636d735640300900"
+    },
+    "54c8c2fe636d7365951d0100": {
+      "id": "54c8c2fe636d7365951d0100",
+      "component": "ChartComponent",
+      "belongsTo": "SingleContainer-54c8c2fe636d7365951e0100",
+      "layout": "PageLayout",
+      "token": "54c8c2fe636d7365951e0100"
+    },
+    "54c8c2fe636d7365951f0100": {
+      "id": "54c8c2fe636d7365951f0100",
+      "component": "WidgetsComponent",
+      "belongsTo": "SingleContainer-54c8c2fe636d736595200100",
+      "layout": "PageLayout",
+      "token": "54c8c2fe636d736595200100"
+    },
+    "54c8c2fe636d736595220100": {
+      "id": "54c8c2fe636d736595220100",
+      "component": "WidgetsComponent",
+      "belongsTo": "SingleContainer-54c8c2fe636d736595230100",
+      "layout": "PageLayout",
+      "token": "54c8c2fe636d736595230100"
+    },
+    "54c8c2fe636d736595240100": {
+      "id": "54c8c2fe636d736595240100",
+      "component": "WidgetsComponent",
+      "belongsTo": "SingleContainer-54c8c2fe636d736595250100",
+      "layout": "PageLayout",
+      "token": "54c8c2fe636d736595250100"
+    },
+    "54c8c2fe636d736595260100": {
+      "id": "54c8c2fe636d736595260100",
+      "component": "WysiwygComponent",
+      "belongsTo": "SingleContainer-54c8c2fe636d736595270100",
+      "layout": "PageLayout",
+      "token": "54c8c2fe636d736595270100"
+    },
+    "54cde4c6636d733ed6940000": {
+      "id": "54cde4c6636d733ed6940000",
+      "component": "WidgetsComponent",
+      "belongsTo": "SingleContainer-54cde4c6636d733ed6950000",
+      "layout": "PageLayout",
+      "token": "54cde4c6636d733ed6950000"
+    },
+    "54bf9b5e636d735fe1240000": {
+      "id": "54bf9b5e636d735fe1240000",
+      "component": "SiteLogoComponent",
+      "belongsTo": "SingleContainer-54bf9b5e636d735fe1250000",
+      "layout": "MasterLayout",
+      "token": "54bf9b5e636d735fe1250000"
+    },
+    "54bf9b5e636d735fe1270000": {
+      "id": "54bf9b5e636d735fe1270000",
+      "component": "LinkListComponent",
+      "belongsTo": "SingleContainer-54bf9b5e636d735fe1280000",
+      "layout": "MasterLayout",
+      "token": "54bf9b5e636d735fe1280000"
+    },
+    "54bf9b5e636d735fe12e0000": {
+      "id": "54bf9b5e636d735fe12e0000",
+      "component": "WysiwygComponent",
+      "belongsTo": "SingleContainer-54bf9b5e636d735fe12f0000",
+      "layout": "MasterLayout",
+      "token": "54bf9b5e636d735fe12f0000"
+    },
+    "54bf9b5e636d735fe1300000": {
+      "id": "54bf9b5e636d735fe1300000",
+      "component": "FooterLinkListComponent",
+      "belongsTo": "SingleContainer-54bf9b5e636d735fe1310000",
+      "layout": "MasterLayout",
+      "token": "54bf9b5e636d735fe1310000"
+    },
+    "55c9e81f636d731dd02a1b00": {
+      "id": "55c9e81f636d731dd02a1b00",
+      "component": "JsInjectorComponent",
+      "belongsTo": "SingleContainer-55c9e81f636d731dd0291b00",
+      "layout": "MasterLayout",
+      "token": "55c9e81f636d731dd0291b00"
+    },
+    "55eff848636d734306080000": {
+      "id": "55eff848636d734306080000",
+      "component": "JsInjectorComponent",
+      "belongsTo": "SingleContainer-55eff848636d734306070000",
+      "layout": "MasterLayout",
+      "token": "55eff848636d734306070000"
+    },
+    "56a70f597858775d4800001b": {
+      "id": "56a70f597858775d4800001b",
+      "component": "JsInjectorComponent",
+      "belongsTo": "SingleContainer-56a70f597858775d4800001a",
+      "layout": "MasterLayout",
+      "token": "56a70f597858775d4800001a"
+    },
+    "57147a647858772adc000049": {
+      "id": "57147a647858772adc000049",
+      "component": "JsInjectorComponent",
+      "belongsTo": "SingleContainer-57147a647858772adc000048",
+      "layout": "MasterLayout",
+      "token": "57147a647858772adc000048"
+    }
+  }
+}

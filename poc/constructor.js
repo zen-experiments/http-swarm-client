@@ -7,7 +7,7 @@ const construct = require('../lib/');
 
 const app = express();
 const PORT = 5001;
-const ADAPTER_URL = 'http://localhost:4001';
+const ADAPTER_URL = 'http://localhost:4001/api/render';
 
 const OPTIONS = {
     baseUrl: ADAPTER_URL,
