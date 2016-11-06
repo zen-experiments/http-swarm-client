@@ -168,6 +168,20 @@ const REFS = {
   }
 };
 
+// {
+//     '54c8c2fe636d7365951d0100': {
+//         css: [['{cdn}/bcss/jquery.qtip.min.v1.css'], ['{cdn}/bcss/font-awesome.v440.min.css']],
+//         error: null,
+//         instance_id: random,
+//         javascripts: [
+//             ['{cdn}/javascript/callbox.v1.js', 'CB'],
+//             ['{cdn}/javascript/jquery.tablesorter.v2221.min.js', 'jQuery.tablesorter']
+//         ],
+//         render: CHART,
+//         type: 'c'
+//     }
+// }
+
 app.use(morgan('dev'));
 app.use(compression());
 
